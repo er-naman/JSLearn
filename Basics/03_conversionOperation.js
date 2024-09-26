@@ -24,3 +24,28 @@ let num = 24
 let stringNum = String(num)
 console.log(stringNum);
 console.log(typeof stringNum);
+
+
+ // *********************************Operations*******************************************
+ let value = 2
+ let negValue = -value
+ console.log(negValue);
+ 
+let str1 = "hello"
+let str2 = "Naman"
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1"+2)
+console.log(1+"2")
+console.log("1"+2+2)
+console.log(1+2+"2")
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter);
+
+++gameCounter;
+console.log(gameCounter);
+
+
